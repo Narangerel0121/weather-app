@@ -24,9 +24,49 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex absolute">
-        <div className="flex-1 h-screen"></div>
-        <div className="flex-1 h-screen"></div>
+      <div className="flex absolute justify-center items-center inset-0">
+
+        <div className="flex-1 h-screen">
+          <div>
+            <input className="rounded" placeholder="Search" />
+            <div className="mx-auto h-2/3 w-2/3 rounded-sm backdrop-blur-md flex flex-col justify-center items-center">
+              <p className="font-medium text-gray-400 text-sm">February 11, 2025</p>
+              <div className="flex">
+                <h3 className="text-3xl font-extrabold">Ulaanbaatar</h3>
+                <img src="assets/pin.svg" />
+              </div>
+              <img src="assets/sun.svg" className="h-64 w-64" />
+              <h1 className="text-5xl font-extrabold">-16.6</h1>
+              <p className="text-orange-500 text-sm font-extrabold">Freezing fog</p>
+              <div className="flex">
+                <img src="assets/home-icon.svg" className="w-8 h-8" />
+                <img src="assets/pin.svg" className="w-8 h-8" />
+                <img src="assets/heart-icon.svg" className="w-8 h-8" />
+                <img src="assets/user.svg" className="w-8 h-8" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-1 h-screen">
+          <div className="mx-auto h-2/3 w-2/3 rounded-sm backdrop-blur-md flex flex-col justify-center items-center" >
+            <p className="font-medium text-gray-400 text-sm">February 11, 2025</p>
+            <div className="flex">
+              <h3 className="text-3xl font-extrabold">Ulaanbaatar</h3>
+              <img src="assets/pin.svg" />
+            </div>
+            <img src="assets/moon.svg" className="h-64 w-64" />
+            <h1 className="text-5xl font-extrabold">-26.7</h1>
+            <p className="text-indigo-500 text-sm font-extrabold">Freezing fog</p>
+            <div className="flex ">
+              <img src="assets/home-icon.svg" />
+              <img src="assets/pin.svg" />
+              <img src="assets/heart-icon.svg" />
+              <img src="assets/user.svg" />
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
